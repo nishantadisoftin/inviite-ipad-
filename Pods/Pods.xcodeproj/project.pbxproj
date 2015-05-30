@@ -1,0 +1,1265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0219160AF63A146B94244523 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E9FD37E341F37524B645D3D9 /* UIAlertView+AFNetworking.h */; };
+		05C15665B30598E3CA0785A0 /* Pods-inviite-ipad-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E0A771DDCB308ED8B532BC /* Pods-inviite-ipad-AFNetworking-dummy.m */; };
+		07F1B9DD94D1851888FF4ECB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCCF90CE611F227CAD3A130 /* Foundation.framework */; };
+		082A7C192C91FD54AFD76F92 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D82D2DDEBF7266A1A66E074A /* AFNetworkActivityIndicatorManager.m */; };
+		0F3A567A47A791332C7E92D2 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = E595BDB02965D32ABCA4820D /* Reachability.h */; };
+		13B89FCE192A0384DACF19BA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B4A483F866142AC2884D5A /* Security.framework */; };
+		1639A0C1DDA26EE78B1D9F90 /* QRCodeReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6095E51BFD8652EEB89C2CE2 /* QRCodeReader.h */; };
+		1A1AE6DEAFBD484732F745D2 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1497928D8D94C78ED2885243 /* UIActivityIndicatorView+AFNetworking.h */; };
+		1BAC2E50F8B416E4211659B1 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A5FBEACBF85AB9F312E96EE3 /* AFNetworking.h */; };
+		1F4760B531624F4B82E9AD70 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5C10347E073AABF76C8CD1 /* AFURLSessionManager.m */; };
+		1F965A360CF8E3842D54F5B0 /* Pods-inviite-ipad-REFrostedViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 283D2B72CD38E5E8FBD4B741 /* Pods-inviite-ipad-REFrostedViewController-dummy.m */; };
+		228F93EC677507A2E01E3E2A /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9634C4D09E1B71A6713C8B36 /* UIImage+REFrostedViewController.m */; };
+		237FA6B9A12F2BCE2CE28EFB /* UIViewController+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EA20CE29394D1165FFFF5F01 /* UIViewController+REFrostedViewController.h */; };
+		26F42074A53C2AA22147F988 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEADF2DC75F906151B0ECD2 /* AFHTTPRequestOperationManager.m */; };
+		2AD0582F70BFB4BF1B679AB0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559E8538615CB2BA5864E4D1 /* AVFoundation.framework */; };
+		2CD414FDF5AF403481526B72 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 02CC05B6108BDBA46ADB2349 /* UIImageView+AFNetworking.m */; };
+		2CD52B0EB372E9F5045A2C48 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2758A4EAA843E4CA071C4237 /* AFHTTPRequestOperation.m */; };
+		2F45D60136D2992506A87289 /* QRCodeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 896F04A9551FBDAA42E514BE /* QRCodeReaderView.m */; };
+		338DF2BB8EF22E7792F80033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCCF90CE611F227CAD3A130 /* Foundation.framework */; };
+		383A23EF8A25482F60A1745F /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 799B89C54A8BF8B5EF6364BB /* AFURLRequestSerialization.m */; };
+		420037ABC0BB07DCCCC9A945 /* RECommonFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B10B2EA7482E557505D37B /* RECommonFunctions.h */; };
+		42F28E6DE74EBEA28B0DEB23 /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0E5B034B3661A98B34C98 /* REFrostedViewController.m */; };
+		430445645D0DD2070AD1AD94 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA59ADA1BD3C1F11B2056B9 /* UIAlertView+AFNetworking.m */; };
+		461C6B48FA2CDDF00B99F01A /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6413A3984AB199FEBE7ACAC5 /* AFNetworkActivityIndicatorManager.h */; };
+		4890C8E983B749A471B2501F /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B24F2D7C2942F8164834FB /* SVProgressHUD.m */; };
+		490456827BB1F68B7332AA0D /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 898B0941EDEC385362C7C307 /* AFSecurityPolicy.h */; };
+		4A3B8A9B8337D811294717E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCCF90CE611F227CAD3A130 /* Foundation.framework */; };
+		4CE78B3DEAF06802B32DF422 /* Pods-inviite-ipad-SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6168961CB4157308B65739 /* Pods-inviite-ipad-SVProgressHUD-dummy.m */; };
+		4F46EFC93C379D5C3EFC1FE4 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E87E866A84E84ABF5F54312 /* UIRefreshControl+AFNetworking.h */; };
+		558F2FBADE304429588CACC2 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 368D9344D1ECBD06A55E2D6D /* AFHTTPRequestOperationManager.h */; };
+		5A3E3CA59D0CE6777A4E14E3 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC96EE453C247B3980D9FC6 /* AFURLSessionManager.h */; };
+		5A6C7745146BF076326B30CC /* Pods-inviite-ipad-Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62675A4BEFCF5BFC2CF56A60 /* Pods-inviite-ipad-Reachability-dummy.m */; };
+		5E93A83D13E060D2389035F2 /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16182163213A8776BF8626B0 /* REFrostedContainerViewController.m */; };
+		5EC05C0E1EAD0B3C1467B728 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBE7656B51F39BCD11F093B /* UIWebView+AFNetworking.m */; };
+		60B299AAAA9D3F0009388EDD /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9F931C0ECA0F9C60567BCD /* UIView+REFrostedViewController.m */; };
+		626D9BF45E000D54A66E3DF1 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4757DC793965AD8E44277D87 /* UIRefreshControl+AFNetworking.m */; };
+		64C5347E4BDE6DC5F2178F9C /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE899D5B553C9C1CF407117 /* SVIndefiniteAnimatedView.h */; };
+		7093A610673E72D55500A7CF /* QRCameraSwitchButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 059385678C88958DD89E3403 /* QRCameraSwitchButton.h */; };
+		750C3E3FC35C9DA5AC27528B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCCF90CE611F227CAD3A130 /* Foundation.framework */; };
+		78793509C4A2308FD236AAA5 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 354C7BA7F7E7C681A68DF77C /* UIKit+AFNetworking.h */; };
+		78EA22E9D484B871083E37BE /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D323C123C7982B3F9A7BFC39 /* AFHTTPSessionManager.h */; };
+		7B604452B3F38534F2898135 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = D781657ECAE261A73A39ED56 /* AFSecurityPolicy.m */; };
+		7B74D2D97CEF64FA5D9736D3 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3971E3E773F866DD2A8BEBE /* AFHTTPSessionManager.m */; };
+		7D516FDE58D9C85072D73582 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 95FBE9F4750E4D640FC9D119 /* AFURLRequestSerialization.h */; };
+		7E00BDF4423FB06E33E4400F /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A80265394C648ACB7DB5A44E /* UIActivityIndicatorView+AFNetworking.m */; };
+		7FBBF9B56F3B9AB985E4C98F /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = EED8A8968410900685D798A1 /* SVIndefiniteAnimatedView.m */; };
+		83396B71CD55D59B8EE22546 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A793FBF39144B85DC28B8608 /* UIProgressView+AFNetworking.h */; };
+		85DF7C1D575738AF15092E4C /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 31F6B3C68779C6B46E15B33A /* SVProgressHUD.h */; };
+		881E12F82590DCB32D0873C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCCF90CE611F227CAD3A130 /* Foundation.framework */; };
+		89D2C6C484887C03BECAB2B9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0CA01C2110E294820C9C4F /* SystemConfiguration.framework */; };
+		8CBB040CA94B766A5EFBF881 /* QRCodeReaderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 74A687FC3F091D60F5870824 /* QRCodeReaderDelegate.h */; };
+		90739D7BC92BED56906D2920 /* QRCodeReader.m in Sources */ = {isa = PBXBuildFile; fileRef = D5951B1EE5533730197BB92E /* QRCodeReader.m */; };
+		921C88E6A491F5A4A1FD5C4D /* REFrostedContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F5C91026ACB355B6A6DDCA /* REFrostedContainerViewController.h */; };
+		9630A2054FE92DB9DE429EC0 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BE43951202704B3FD78F61 /* UIProgressView+AFNetworking.m */; };
+		99F7F294FB2F85D6775E5486 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9932654061F8D106DE0FB721 /* Accelerate.framework */; };
+		9D160F54C7AC458A23F17E05 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 836940C3E0CF76BD577FB675 /* RECommonFunctions.m */; };
+		9E1C04D49888C3B931F95699 /* QRCameraSwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B5A75C455D7475497B5AE3 /* QRCameraSwitchButton.m */; };
+		9F7083E255C83E9F69A4D50B /* QRCodeReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB02249A05A0748F5A4938F /* QRCodeReaderViewController.m */; };
+		A20A2037CEB25F2BCBB47D4F /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = DB675164F90236F8D23F13AB /* AFURLConnectionOperation.h */; };
+		A58A027E314F8E2DB85DC47B /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EE216C2903FB556AD30BB8B3 /* UIButton+AFNetworking.m */; };
+		A66842B3D3A7B3E2CDBFBF51 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15270D7001169D1257DEA806 /* MobileCoreServices.framework */; };
+		AE5C35C3BE4CC36E28670D7D /* UIView+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 919CDF7C769F028BBF9FF6A3 /* UIView+REFrostedViewController.h */; };
+		B14E0A9BEE9149D5B22AF13A /* REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E6DEA4F9C53E34387DCA199D /* REFrostedViewController.h */; };
+		B54EA95A7BA6DCA242F27AB6 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 902EC817B9919AD4CB89AD77 /* AFNetworkReachabilityManager.h */; };
+		C3849119FD31FC3989A17E40 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A630119A13E562DE1D8C482 /* UIImageView+AFNetworking.h */; };
+		C537F3A2AE708D81DAFB0BD0 /* QRCodeReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D951117FF8871EFFC4ED77D9 /* QRCodeReaderViewController.h */; };
+		C8B3EA3919F6F90AF6B517C1 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 26F7C067F664B5A64DABF1AE /* AFURLResponseSerialization.h */; };
+		D0AA437D05A599FD06BE9035 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D51DCAD110824448C610D9 /* AFURLConnectionOperation.m */; };
+		D2B1143624CB1CD9B837D4EB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D903999603CABAD053331A8 /* QuartzCore.framework */; };
+		D3579018448A4D94FDE58429 /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E60D03A53D2C689EBF66DB /* UIViewController+REFrostedViewController.m */; };
+		D4DF156882DFD777C7DF050B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BAA22D55EB4555B7E50BE7E /* UIButton+AFNetworking.h */; };
+		DF4BE5E9629A194199EF9F24 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D903999603CABAD053331A8 /* QuartzCore.framework */; };
+		E5482A6E67B72E60D80802FD /* QRCodeReaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0952C7AEECE8ADB1034D42E8 /* QRCodeReaderView.h */; };
+		E5E6B2EE7183DA3A6882FA4A /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5DABB8934C57100C8B3F17 /* AFNetworkReachabilityManager.m */; };
+		E72CBF3EF7D2594DF2EDEBDA /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 708FABB7100837A2AF5F3266 /* AFURLResponseSerialization.m */; };
+		EA31C236E9B9AD1E31A855F0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0CA01C2110E294820C9C4F /* SystemConfiguration.framework */; };
+		F31589E43754E94861D039F8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D161A38E1F18A8056403260 /* Reachability.m */; };
+		F4982249E155D39382FB6BE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCCF90CE611F227CAD3A130 /* Foundation.framework */; };
+		F75E1008AA9D2BBE85DE49DB /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B20EB0B26B6BD13A418F6B /* AFHTTPRequestOperation.h */; };
+		F98B4022BC510E7B637BC692 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECA05C04B19FE27B08C671F /* CoreGraphics.framework */; };
+		FA5C626E4893FD4E7D079C5B /* UIImage+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8677F418D2A94629D9A34A76 /* UIImage+REFrostedViewController.h */; };
+		FBDD21BF984814719F17D758 /* Pods-inviite-ipad-QRCodeReaderViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6F8B7BA4CC0B7FD2E89912 /* Pods-inviite-ipad-QRCodeReaderViewController-dummy.m */; };
+		FF5EAC0BD9750CD4057FE841 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = AC7A38297EF7320B468C9B13 /* UIWebView+AFNetworking.h */; };
+		FF8C26F7F94A5C20E0AF3159 /* Pods-inviite-ipad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A81B71DFBC6D85A894E9E61 /* Pods-inviite-ipad-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		700142402A149F13F42FA3C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F39B4AB016FF11177F6A80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 974E9D49BAB22A63CBF24A19;
+			remoteInfo = "Pods-inviite-ipad-SVProgressHUD";
+		};
+		A2358885BCF37BBA1D672637 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F39B4AB016FF11177F6A80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC64532E323255D820E741A5;
+			remoteInfo = "Pods-inviite-ipad-QRCodeReaderViewController";
+		};
+		B2002EBFDB6F15064EB6171A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F39B4AB016FF11177F6A80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1438834C70DA77EFAC4B0508;
+			remoteInfo = "Pods-inviite-ipad-AFNetworking";
+		};
+		B20B0C5098028F0F473E0AF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F39B4AB016FF11177F6A80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB207C7ECED26D71177EC1AA;
+			remoteInfo = "Pods-inviite-ipad-REFrostedViewController";
+		};
+		D1F8EA9EC1DC9020FF8D51A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F39B4AB016FF11177F6A80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB3895B67EE2727E4E4ACA3;
+			remoteInfo = "Pods-inviite-ipad-Reachability";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0050B86C82567D381078A169 /* Pods-inviite-ipad-SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inviite-ipad-SVProgressHUD.xcconfig"; sourceTree = "<group>"; };
+		02CC05B6108BDBA46ADB2349 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		059385678C88958DD89E3403 /* QRCameraSwitchButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRCameraSwitchButton.h; path = QRCodeReaderViewController/QRCameraSwitchButton.h; sourceTree = "<group>"; };
+		0952C7AEECE8ADB1034D42E8 /* QRCodeReaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRCodeReaderView.h; path = QRCodeReaderViewController/QRCodeReaderView.h; sourceTree = "<group>"; };
+		0A630119A13E562DE1D8C482 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		0C32E1E5D1DDB23A9707A746 /* libPods-inviite-ipad-QRCodeReaderViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-inviite-ipad-QRCodeReaderViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E542F813455587F4E837FA8 /* Pods-inviite-ipad-REFrostedViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inviite-ipad-REFrostedViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		1497928D8D94C78ED2885243 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		15270D7001169D1257DEA806 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		16182163213A8776BF8626B0 /* REFrostedContainerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REFrostedContainerViewController.m; path = REFrostedViewController/REFrostedContainerViewController.m; sourceTree = "<group>"; };
+		16B5A75C455D7475497B5AE3 /* QRCameraSwitchButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QRCameraSwitchButton.m; path = QRCodeReaderViewController/QRCameraSwitchButton.m; sourceTree = "<group>"; };
+		1A0061C85346338707F389FB /* Pods-inviite-ipad-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-inviite-ipad-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F7FA3DA829AB9DA9CFF608D /* Pods-inviite-ipad-Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-inviite-ipad-Reachability-prefix.pch"; sourceTree = "<group>"; };
+		26F7C067F664B5A64DABF1AE /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		2758A4EAA843E4CA071C4237 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		283D2B72CD38E5E8FBD4B741 /* Pods-inviite-ipad-REFrostedViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-inviite-ipad-REFrostedViewController-dummy.m"; sourceTree = "<group>"; };
+		2EB0E5B034B3661A98B34C98 /* REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REFrostedViewController.m; path = REFrostedViewController/REFrostedViewController.m; sourceTree = "<group>"; };
+		31F6B3C68779C6B46E15B33A /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		354C7BA7F7E7C681A68DF77C /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		368D9344D1ECBD06A55E2D6D /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		386211B8504E671A29C3A408 /* libPods-inviite-ipad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-inviite-ipad.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		395D19210D542E561B34ACC8 /* Pods-inviite-ipad-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-inviite-ipad-environment.h"; sourceTree = "<group>"; };
+		3C4C22FB47ABFF379B6B4FF0 /* Pods-inviite-ipad-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inviite-ipad-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		3ECA05C04B19FE27B08C671F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		42B891BFD633973026979AAE /* Pods-inviite-ipad-QRCodeReaderViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inviite-ipad-QRCodeReaderViewController.xcconfig"; sourceTree = "<group>"; };
+		42BB554A7B8C080F25F81498 /* Pods-inviite-ipad-QRCodeReaderViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inviite-ipad-QRCodeReaderViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		45831D0C272D6FB0B66A5929 /* libPods-inviite-ipad-REFrostedViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-inviite-ipad-REFrostedViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E60D03A53D2C689EBF66DB /* UIViewController+REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+REFrostedViewController.m"; path = "REFrostedViewController/UIViewController+REFrostedViewController.m"; sourceTree = "<group>"; };
+		4757DC793965AD8E44277D87 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		4E9F931C0ECA0F9C60567BCD /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+REFrostedViewController.m"; path = "REFrostedViewController/UIView+REFrostedViewController.m"; sourceTree = "<group>"; };
+		4FBE7656B51F39BCD11F093B /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		536724FEA0B74D225DB0C691 /* Pods-inviite-ipad-SVProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inviite-ipad-SVProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		559E8538615CB2BA5864E4D1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		55B10B2EA7482E557505D37B /* RECommonFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RECommonFunctions.h; path = REFrostedViewController/RECommonFunctions.h; sourceTree = "<group>"; };
+		586CBCBFE60B1CC7BA1546B8 /* Pods-inviite-ipad-Reachability-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inviite-ipad-Reachability-Private.xcconfig"; sourceTree = "<group>"; };
+		58FA682B9E0F55C2B85024C9 /* Pods-inviite-ipad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inviite-ipad.debug.xcconfig"; sourceTree = "<group>"; };
+		6095E51BFD8652EEB89C2CE2 /* QRCodeReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRCodeReader.h; path = QRCodeReaderViewController/QRCodeReader.h; sourceTree = "<group>"; };
+		62675A4BEFCF5BFC2CF56A60 /* Pods-inviite-ipad-Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-inviite-ipad-Reachability-dummy.m"; sourceTree = "<group>"; };
+		63D51DCAD110824448C610D9 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		6413A3984AB199FEBE7ACAC5 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		66DF1CD734253AD5D3E9AD8B /* Pods-inviite-ipad-Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inviite-ipad-Reachability.xcconfig"; sourceTree = "<group>"; };
+		681D94FF8617D9371ED1FFAC /* Pods-inviite-ipad-QRCodeReaderViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-inviite-ipad-QRCodeReaderViewController-prefix.pch"; sourceTree = "<group>"; };
+		68F8BE1DDC11C48F4A5C7B21 /* Pods-inviite-ipad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inviite-ipad.release.xcconfig"; sourceTree = "<group>"; };
+		69BE43951202704B3FD78F61 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		6BAA22D55EB4555B7E50BE7E /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		6EA9BDE2A64B57A922C1D046 /* Pods-inviite-ipad-REFrostedViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inviite-ipad-REFrostedViewController.xcconfig"; sourceTree = "<group>"; };
+		708FABB7100837A2AF5F3266 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		74A687FC3F091D60F5870824 /* QRCodeReaderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRCodeReaderDelegate.h; path = QRCodeReaderViewController/QRCodeReaderDelegate.h; sourceTree = "<group>"; };
+		7700EAFBBFEE304441AEE5A8 /* libPods-inviite-ipad-SVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-inviite-ipad-SVProgressHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		799B89C54A8BF8B5EF6364BB /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		7A81B71DFBC6D85A894E9E61 /* Pods-inviite-ipad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-inviite-ipad-dummy.m"; sourceTree = "<group>"; };
+		7BB02249A05A0748F5A4938F /* QRCodeReaderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QRCodeReaderViewController.m; path = QRCodeReaderViewController/QRCodeReaderViewController.m; sourceTree = "<group>"; };
+		7BE899D5B553C9C1CF407117 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		7D903999603CABAD053331A8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		836940C3E0CF76BD577FB675 /* RECommonFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RECommonFunctions.m; path = REFrostedViewController/RECommonFunctions.m; sourceTree = "<group>"; };
+		84B20EB0B26B6BD13A418F6B /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		8677F418D2A94629D9A34A76 /* UIImage+REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+REFrostedViewController.h"; path = "REFrostedViewController/UIImage+REFrostedViewController.h"; sourceTree = "<group>"; };
+		87D9AE77CA0E6A51CEF321F0 /* Pods-inviite-ipad-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inviite-ipad-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		896F04A9551FBDAA42E514BE /* QRCodeReaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QRCodeReaderView.m; path = QRCodeReaderViewController/QRCodeReaderView.m; sourceTree = "<group>"; };
+		898B0941EDEC385362C7C307 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		8B9E5012C1A597539F36D480 /* Pods-inviite-ipad-SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-inviite-ipad-SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		8DCCF90CE611F227CAD3A130 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8E87E866A84E84ABF5F54312 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		902EC817B9919AD4CB89AD77 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		919CDF7C769F028BBF9FF6A3 /* UIView+REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+REFrostedViewController.h"; path = "REFrostedViewController/UIView+REFrostedViewController.h"; sourceTree = "<group>"; };
+		933EAD120E66AEEA8534C7A0 /* Pods-inviite-ipad-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-inviite-ipad-resources.sh"; sourceTree = "<group>"; };
+		95E0A771DDCB308ED8B532BC /* Pods-inviite-ipad-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-inviite-ipad-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		95FBE9F4750E4D640FC9D119 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		9634C4D09E1B71A6713C8B36 /* UIImage+REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+REFrostedViewController.m"; path = "REFrostedViewController/UIImage+REFrostedViewController.m"; sourceTree = "<group>"; };
+		9932654061F8D106DE0FB721 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		9C9BA86DCDBBEAFCB12CA2B4 /* libPods-inviite-ipad-Reachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-inviite-ipad-Reachability.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D161A38E1F18A8056403260 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		9E48A42B9AA3A0CDD9ADC800 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		A2BA2D92486305CC092ABAE4 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5B4A483F866142AC2884D5A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		A5FBEACBF85AB9F312E96EE3 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		A793FBF39144B85DC28B8608 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		A80265394C648ACB7DB5A44E /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		A8AAC56EBC9E8AD9E3D7E3A7 /* Pods-inviite-ipad-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-inviite-ipad-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		AC7A38297EF7320B468C9B13 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		C2F1A2B6AA8090986C726772 /* Pods-inviite-ipad-REFrostedViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-inviite-ipad-REFrostedViewController-prefix.pch"; sourceTree = "<group>"; };
+		CE5C10347E073AABF76C8CD1 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		CF5D0EB69F9488004F7176A9 /* Pods-inviite-ipad-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-inviite-ipad-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D323C123C7982B3F9A7BFC39 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		D3971E3E773F866DD2A8BEBE /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		D5951B1EE5533730197BB92E /* QRCodeReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QRCodeReader.m; path = QRCodeReaderViewController/QRCodeReader.m; sourceTree = "<group>"; };
+		D781657ECAE261A73A39ED56 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		D82D2DDEBF7266A1A66E074A /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		D951117FF8871EFFC4ED77D9 /* QRCodeReaderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QRCodeReaderViewController.h; path = QRCodeReaderViewController/QRCodeReaderViewController.h; sourceTree = "<group>"; };
+		DB675164F90236F8D23F13AB /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		DEC96EE453C247B3980D9FC6 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		E1B24F2D7C2942F8164834FB /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		E1F5C91026ACB355B6A6DDCA /* REFrostedContainerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REFrostedContainerViewController.h; path = REFrostedViewController/REFrostedContainerViewController.h; sourceTree = "<group>"; };
+		E33A3EACC386C82422D83CBA /* libPods-inviite-ipad-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-inviite-ipad-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E595BDB02965D32ABCA4820D /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		E6DEA4F9C53E34387DCA199D /* REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REFrostedViewController.h; path = REFrostedViewController/REFrostedViewController.h; sourceTree = "<group>"; };
+		E9FD37E341F37524B645D3D9 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		EA20CE29394D1165FFFF5F01 /* UIViewController+REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+REFrostedViewController.h"; path = "REFrostedViewController/UIViewController+REFrostedViewController.h"; sourceTree = "<group>"; };
+		EA6F8B7BA4CC0B7FD2E89912 /* Pods-inviite-ipad-QRCodeReaderViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-inviite-ipad-QRCodeReaderViewController-dummy.m"; sourceTree = "<group>"; };
+		EB0CA01C2110E294820C9C4F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		EBEADF2DC75F906151B0ECD2 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		EC5DABB8934C57100C8B3F17 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		EC6168961CB4157308B65739 /* Pods-inviite-ipad-SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-inviite-ipad-SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		EE216C2903FB556AD30BB8B3 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		EED8A8968410900685D798A1 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		EFA59ADA1BD3C1F11B2056B9 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CE12221392856F14E370126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881E12F82590DCB32D0873C3 /* Foundation.framework in Frameworks */,
+				89D2C6C484887C03BECAB2B9 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6077528603F0C4BBBEA6980C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD0582F70BFB4BF1B679AB0 /* AVFoundation.framework in Frameworks */,
+				4A3B8A9B8337D811294717E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AEE1DB86269A5D54F205029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F7F294FB2F85D6775E5486 /* Accelerate.framework in Frameworks */,
+				F4982249E155D39382FB6BE2 /* Foundation.framework in Frameworks */,
+				D2B1143624CB1CD9B837D4EB /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F79C4CCA092DB2725910A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750C3E3FC35C9DA5AC27528B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C53CDFC4CA5097DC5B952B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98B4022BC510E7B637BC692 /* CoreGraphics.framework in Frameworks */,
+				338DF2BB8EF22E7792F80033 /* Foundation.framework in Frameworks */,
+				A66842B3D3A7B3E2CDBFBF51 /* MobileCoreServices.framework in Frameworks */,
+				13B89FCE192A0384DACF19BA /* Security.framework in Frameworks */,
+				EA31C236E9B9AD1E31A855F0 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A3202E874DB66DFD1E06DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F1B9DD94D1851888FF4ECB /* Foundation.framework in Frameworks */,
+				DF4BE5E9629A194199EF9F24 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C001030CBD9A0E210D31CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				457118B1E7AED22DA1126D17 /* AFNetworking */,
+				13ED16D10BE58D3981478BE7 /* QRCodeReaderViewController */,
+				94ECDE6DCCE9F5B38F23C080 /* REFrostedViewController */,
+				B917FA95D19134B949ACC25C /* Reachability */,
+				43C69BEA308E90FA488380AD /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		13ED16D10BE58D3981478BE7 /* QRCodeReaderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				059385678C88958DD89E3403 /* QRCameraSwitchButton.h */,
+				16B5A75C455D7475497B5AE3 /* QRCameraSwitchButton.m */,
+				6095E51BFD8652EEB89C2CE2 /* QRCodeReader.h */,
+				D5951B1EE5533730197BB92E /* QRCodeReader.m */,
+				74A687FC3F091D60F5870824 /* QRCodeReaderDelegate.h */,
+				0952C7AEECE8ADB1034D42E8 /* QRCodeReaderView.h */,
+				896F04A9551FBDAA42E514BE /* QRCodeReaderView.m */,
+				D951117FF8871EFFC4ED77D9 /* QRCodeReaderViewController.h */,
+				7BB02249A05A0748F5A4938F /* QRCodeReaderViewController.m */,
+				3FE61A335C651F143D28536D /* Support Files */,
+			);
+			path = QRCodeReaderViewController;
+			sourceTree = "<group>";
+		};
+		178086936EC57595C68A2CD1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EA9BDE2A64B57A922C1D046 /* Pods-inviite-ipad-REFrostedViewController.xcconfig */,
+				0E542F813455587F4E837FA8 /* Pods-inviite-ipad-REFrostedViewController-Private.xcconfig */,
+				283D2B72CD38E5E8FBD4B741 /* Pods-inviite-ipad-REFrostedViewController-dummy.m */,
+				C2F1A2B6AA8090986C726772 /* Pods-inviite-ipad-REFrostedViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-inviite-ipad-REFrostedViewController";
+			sourceTree = "<group>";
+		};
+		1F5037D20794821021FE0350 = {
+			isa = PBXGroup;
+			children = (
+				A2BA2D92486305CC092ABAE4 /* Podfile */,
+				6EFF133746A093E259BD503E /* Frameworks */,
+				06C001030CBD9A0E210D31CB /* Pods */,
+				2DF23EB5C68D8429B1895C1B /* Products */,
+				466C897570B2AB75EB724F33 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		2DF23EB5C68D8429B1895C1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				386211B8504E671A29C3A408 /* libPods-inviite-ipad.a */,
+				E33A3EACC386C82422D83CBA /* libPods-inviite-ipad-AFNetworking.a */,
+				0C32E1E5D1DDB23A9707A746 /* libPods-inviite-ipad-QRCodeReaderViewController.a */,
+				45831D0C272D6FB0B66A5929 /* libPods-inviite-ipad-REFrostedViewController.a */,
+				9C9BA86DCDBBEAFCB12CA2B4 /* libPods-inviite-ipad-Reachability.a */,
+				7700EAFBBFEE304441AEE5A8 /* libPods-inviite-ipad-SVProgressHUD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E9E847F7558A23D155E53FB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				559E8538615CB2BA5864E4D1 /* AVFoundation.framework */,
+				9932654061F8D106DE0FB721 /* Accelerate.framework */,
+				3ECA05C04B19FE27B08C671F /* CoreGraphics.framework */,
+				8DCCF90CE611F227CAD3A130 /* Foundation.framework */,
+				15270D7001169D1257DEA806 /* MobileCoreServices.framework */,
+				7D903999603CABAD053331A8 /* QuartzCore.framework */,
+				A5B4A483F866142AC2884D5A /* Security.framework */,
+				EB0CA01C2110E294820C9C4F /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3EC6BCF1F66148FFBBF2AFE2 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				902EC817B9919AD4CB89AD77 /* AFNetworkReachabilityManager.h */,
+				EC5DABB8934C57100C8B3F17 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		3FC466F4B8B0B7AE4F0B08B7 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				6413A3984AB199FEBE7ACAC5 /* AFNetworkActivityIndicatorManager.h */,
+				D82D2DDEBF7266A1A66E074A /* AFNetworkActivityIndicatorManager.m */,
+				1497928D8D94C78ED2885243 /* UIActivityIndicatorView+AFNetworking.h */,
+				A80265394C648ACB7DB5A44E /* UIActivityIndicatorView+AFNetworking.m */,
+				E9FD37E341F37524B645D3D9 /* UIAlertView+AFNetworking.h */,
+				EFA59ADA1BD3C1F11B2056B9 /* UIAlertView+AFNetworking.m */,
+				6BAA22D55EB4555B7E50BE7E /* UIButton+AFNetworking.h */,
+				EE216C2903FB556AD30BB8B3 /* UIButton+AFNetworking.m */,
+				0A630119A13E562DE1D8C482 /* UIImageView+AFNetworking.h */,
+				02CC05B6108BDBA46ADB2349 /* UIImageView+AFNetworking.m */,
+				354C7BA7F7E7C681A68DF77C /* UIKit+AFNetworking.h */,
+				A793FBF39144B85DC28B8608 /* UIProgressView+AFNetworking.h */,
+				69BE43951202704B3FD78F61 /* UIProgressView+AFNetworking.m */,
+				8E87E866A84E84ABF5F54312 /* UIRefreshControl+AFNetworking.h */,
+				4757DC793965AD8E44277D87 /* UIRefreshControl+AFNetworking.m */,
+				AC7A38297EF7320B468C9B13 /* UIWebView+AFNetworking.h */,
+				4FBE7656B51F39BCD11F093B /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		3FE61A335C651F143D28536D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42B891BFD633973026979AAE /* Pods-inviite-ipad-QRCodeReaderViewController.xcconfig */,
+				42BB554A7B8C080F25F81498 /* Pods-inviite-ipad-QRCodeReaderViewController-Private.xcconfig */,
+				EA6F8B7BA4CC0B7FD2E89912 /* Pods-inviite-ipad-QRCodeReaderViewController-dummy.m */,
+				681D94FF8617D9371ED1FFAC /* Pods-inviite-ipad-QRCodeReaderViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-inviite-ipad-QRCodeReaderViewController";
+			sourceTree = "<group>";
+		};
+		43C69BEA308E90FA488380AD /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				7BE899D5B553C9C1CF407117 /* SVIndefiniteAnimatedView.h */,
+				EED8A8968410900685D798A1 /* SVIndefiniteAnimatedView.m */,
+				31F6B3C68779C6B46E15B33A /* SVProgressHUD.h */,
+				E1B24F2D7C2942F8164834FB /* SVProgressHUD.m */,
+				F7640FA567858E6D6525E25D /* Resources */,
+				C93BFA7C8A417B21204685C2 /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		457118B1E7AED22DA1126D17 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A5FBEACBF85AB9F312E96EE3 /* AFNetworking.h */,
+				EB301FF09F091A275A2A016D /* NSURLConnection */,
+				962DF9E77C0E3D6B285FF2FA /* NSURLSession */,
+				3EC6BCF1F66148FFBBF2AFE2 /* Reachability */,
+				6A3389929F3E939D5606C49B /* Security */,
+				5E662F2A8E7766272693095B /* Serialization */,
+				67C985E194E87265A85CA8A0 /* Support Files */,
+				3FC466F4B8B0B7AE4F0B08B7 /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		466C897570B2AB75EB724F33 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6AB671EE4ED02489A6D34F9 /* Pods-inviite-ipad */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E662F2A8E7766272693095B /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				95FBE9F4750E4D640FC9D119 /* AFURLRequestSerialization.h */,
+				799B89C54A8BF8B5EF6364BB /* AFURLRequestSerialization.m */,
+				26F7C067F664B5A64DABF1AE /* AFURLResponseSerialization.h */,
+				708FABB7100837A2AF5F3266 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		67C985E194E87265A85CA8A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C4C22FB47ABFF379B6B4FF0 /* Pods-inviite-ipad-AFNetworking.xcconfig */,
+				87D9AE77CA0E6A51CEF321F0 /* Pods-inviite-ipad-AFNetworking-Private.xcconfig */,
+				95E0A771DDCB308ED8B532BC /* Pods-inviite-ipad-AFNetworking-dummy.m */,
+				A8AAC56EBC9E8AD9E3D7E3A7 /* Pods-inviite-ipad-AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-inviite-ipad-AFNetworking";
+			sourceTree = "<group>";
+		};
+		6A3389929F3E939D5606C49B /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				898B0941EDEC385362C7C307 /* AFSecurityPolicy.h */,
+				D781657ECAE261A73A39ED56 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		6EFF133746A093E259BD503E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E9E847F7558A23D155E53FB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94ECDE6DCCE9F5B38F23C080 /* REFrostedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				55B10B2EA7482E557505D37B /* RECommonFunctions.h */,
+				836940C3E0CF76BD577FB675 /* RECommonFunctions.m */,
+				E1F5C91026ACB355B6A6DDCA /* REFrostedContainerViewController.h */,
+				16182163213A8776BF8626B0 /* REFrostedContainerViewController.m */,
+				E6DEA4F9C53E34387DCA199D /* REFrostedViewController.h */,
+				2EB0E5B034B3661A98B34C98 /* REFrostedViewController.m */,
+				8677F418D2A94629D9A34A76 /* UIImage+REFrostedViewController.h */,
+				9634C4D09E1B71A6713C8B36 /* UIImage+REFrostedViewController.m */,
+				919CDF7C769F028BBF9FF6A3 /* UIView+REFrostedViewController.h */,
+				4E9F931C0ECA0F9C60567BCD /* UIView+REFrostedViewController.m */,
+				EA20CE29394D1165FFFF5F01 /* UIViewController+REFrostedViewController.h */,
+				46E60D03A53D2C689EBF66DB /* UIViewController+REFrostedViewController.m */,
+				178086936EC57595C68A2CD1 /* Support Files */,
+			);
+			path = REFrostedViewController;
+			sourceTree = "<group>";
+		};
+		962DF9E77C0E3D6B285FF2FA /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				D323C123C7982B3F9A7BFC39 /* AFHTTPSessionManager.h */,
+				D3971E3E773F866DD2A8BEBE /* AFHTTPSessionManager.m */,
+				DEC96EE453C247B3980D9FC6 /* AFURLSessionManager.h */,
+				CE5C10347E073AABF76C8CD1 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		B917FA95D19134B949ACC25C /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				E595BDB02965D32ABCA4820D /* Reachability.h */,
+				9D161A38E1F18A8056403260 /* Reachability.m */,
+				FC86030D6C6E21D1A8A226E3 /* Support Files */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		C93BFA7C8A417B21204685C2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0050B86C82567D381078A169 /* Pods-inviite-ipad-SVProgressHUD.xcconfig */,
+				536724FEA0B74D225DB0C691 /* Pods-inviite-ipad-SVProgressHUD-Private.xcconfig */,
+				EC6168961CB4157308B65739 /* Pods-inviite-ipad-SVProgressHUD-dummy.m */,
+				8B9E5012C1A597539F36D480 /* Pods-inviite-ipad-SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-inviite-ipad-SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		E6AB671EE4ED02489A6D34F9 /* Pods-inviite-ipad */ = {
+			isa = PBXGroup;
+			children = (
+				CF5D0EB69F9488004F7176A9 /* Pods-inviite-ipad-acknowledgements.markdown */,
+				1A0061C85346338707F389FB /* Pods-inviite-ipad-acknowledgements.plist */,
+				7A81B71DFBC6D85A894E9E61 /* Pods-inviite-ipad-dummy.m */,
+				395D19210D542E561B34ACC8 /* Pods-inviite-ipad-environment.h */,
+				933EAD120E66AEEA8534C7A0 /* Pods-inviite-ipad-resources.sh */,
+				58FA682B9E0F55C2B85024C9 /* Pods-inviite-ipad.debug.xcconfig */,
+				68F8BE1DDC11C48F4A5C7B21 /* Pods-inviite-ipad.release.xcconfig */,
+			);
+			name = "Pods-inviite-ipad";
+			path = "Target Support Files/Pods-inviite-ipad";
+			sourceTree = "<group>";
+		};
+		EB301FF09F091A275A2A016D /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				84B20EB0B26B6BD13A418F6B /* AFHTTPRequestOperation.h */,
+				2758A4EAA843E4CA071C4237 /* AFHTTPRequestOperation.m */,
+				368D9344D1ECBD06A55E2D6D /* AFHTTPRequestOperationManager.h */,
+				EBEADF2DC75F906151B0ECD2 /* AFHTTPRequestOperationManager.m */,
+				DB675164F90236F8D23F13AB /* AFURLConnectionOperation.h */,
+				63D51DCAD110824448C610D9 /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		F7640FA567858E6D6525E25D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9E48A42B9AA3A0CDD9ADC800 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FC86030D6C6E21D1A8A226E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66DF1CD734253AD5D3E9AD8B /* Pods-inviite-ipad-Reachability.xcconfig */,
+				586CBCBFE60B1CC7BA1546B8 /* Pods-inviite-ipad-Reachability-Private.xcconfig */,
+				62675A4BEFCF5BFC2CF56A60 /* Pods-inviite-ipad-Reachability-dummy.m */,
+				1F7FA3DA829AB9DA9CFF608D /* Pods-inviite-ipad-Reachability-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-inviite-ipad-Reachability";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1C2C28810D12DB80984046E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7093A610673E72D55500A7CF /* QRCameraSwitchButton.h in Headers */,
+				1639A0C1DDA26EE78B1D9F90 /* QRCodeReader.h in Headers */,
+				8CBB040CA94B766A5EFBF881 /* QRCodeReaderDelegate.h in Headers */,
+				E5482A6E67B72E60D80802FD /* QRCodeReaderView.h in Headers */,
+				C537F3A2AE708D81DAFB0BD0 /* QRCodeReaderViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F0856CC993447C164612ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420037ABC0BB07DCCCC9A945 /* RECommonFunctions.h in Headers */,
+				921C88E6A491F5A4A1FD5C4D /* REFrostedContainerViewController.h in Headers */,
+				B14E0A9BEE9149D5B22AF13A /* REFrostedViewController.h in Headers */,
+				FA5C626E4893FD4E7D079C5B /* UIImage+REFrostedViewController.h in Headers */,
+				AE5C35C3BE4CC36E28670D7D /* UIView+REFrostedViewController.h in Headers */,
+				237FA6B9A12F2BCE2CE28EFB /* UIViewController+REFrostedViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322BD49FA2D318506C1B2363 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75E1008AA9D2BBE85DE49DB /* AFHTTPRequestOperation.h in Headers */,
+				558F2FBADE304429588CACC2 /* AFHTTPRequestOperationManager.h in Headers */,
+				78EA22E9D484B871083E37BE /* AFHTTPSessionManager.h in Headers */,
+				461C6B48FA2CDDF00B99F01A /* AFNetworkActivityIndicatorManager.h in Headers */,
+				B54EA95A7BA6DCA242F27AB6 /* AFNetworkReachabilityManager.h in Headers */,
+				1BAC2E50F8B416E4211659B1 /* AFNetworking.h in Headers */,
+				490456827BB1F68B7332AA0D /* AFSecurityPolicy.h in Headers */,
+				A20A2037CEB25F2BCBB47D4F /* AFURLConnectionOperation.h in Headers */,
+				7D516FDE58D9C85072D73582 /* AFURLRequestSerialization.h in Headers */,
+				C8B3EA3919F6F90AF6B517C1 /* AFURLResponseSerialization.h in Headers */,
+				5A3E3CA59D0CE6777A4E14E3 /* AFURLSessionManager.h in Headers */,
+				1A1AE6DEAFBD484732F745D2 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				0219160AF63A146B94244523 /* UIAlertView+AFNetworking.h in Headers */,
+				D4DF156882DFD777C7DF050B /* UIButton+AFNetworking.h in Headers */,
+				C3849119FD31FC3989A17E40 /* UIImageView+AFNetworking.h in Headers */,
+				78793509C4A2308FD236AAA5 /* UIKit+AFNetworking.h in Headers */,
+				83396B71CD55D59B8EE22546 /* UIProgressView+AFNetworking.h in Headers */,
+				4F46EFC93C379D5C3EFC1FE4 /* UIRefreshControl+AFNetworking.h in Headers */,
+				FF5EAC0BD9750CD4057FE841 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58059DE25E4120F9C71459A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C5347E4BDE6DC5F2178F9C /* SVIndefiniteAnimatedView.h in Headers */,
+				85DF7C1D575738AF15092E4C /* SVProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C2338E13CB17374E807297 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3A567A47A791332C7E92D2 /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1438834C70DA77EFAC4B0508 /* Pods-inviite-ipad-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0BA4A23796FDAEEC22ABB5 /* Build configuration list for PBXNativeTarget "Pods-inviite-ipad-AFNetworking" */;
+			buildPhases = (
+				41089F6AC2B9D538A8BA9FAD /* Sources */,
+				93C53CDFC4CA5097DC5B952B /* Frameworks */,
+				322BD49FA2D318506C1B2363 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-inviite-ipad-AFNetworking";
+			productName = "Pods-inviite-ipad-AFNetworking";
+			productReference = E33A3EACC386C82422D83CBA /* libPods-inviite-ipad-AFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		974E9D49BAB22A63CBF24A19 /* Pods-inviite-ipad-SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311702E3954F67BA7019D7A0 /* Build configuration list for PBXNativeTarget "Pods-inviite-ipad-SVProgressHUD" */;
+			buildPhases = (
+				3A64D2D1C6A7476A5C253EFC /* Sources */,
+				A6A3202E874DB66DFD1E06DE /* Frameworks */,
+				58059DE25E4120F9C71459A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-inviite-ipad-SVProgressHUD";
+			productName = "Pods-inviite-ipad-SVProgressHUD";
+			productReference = 7700EAFBBFEE304441AEE5A8 /* libPods-inviite-ipad-SVProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B5909E8C0AF42F032028D904 /* Pods-inviite-ipad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CBAF91E7807A23F61B40EEF /* Build configuration list for PBXNativeTarget "Pods-inviite-ipad" */;
+			buildPhases = (
+				B24B39FCFF3344C2CD96F835 /* Sources */,
+				8F79C4CCA092DB2725910A84 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A27560E95661A16DDEE6147 /* PBXTargetDependency */,
+				66CA8CB360BE485B0F847E91 /* PBXTargetDependency */,
+				A7C6C69DC465070CD28E3274 /* PBXTargetDependency */,
+				B15D630FCB7687E5D5B2E924 /* PBXTargetDependency */,
+				BCA9A587247E219FFB9EF619 /* PBXTargetDependency */,
+			);
+			name = "Pods-inviite-ipad";
+			productName = "Pods-inviite-ipad";
+			productReference = 386211B8504E671A29C3A408 /* libPods-inviite-ipad.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BC64532E323255D820E741A5 /* Pods-inviite-ipad-QRCodeReaderViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08C609863979175A74398A07 /* Build configuration list for PBXNativeTarget "Pods-inviite-ipad-QRCodeReaderViewController" */;
+			buildPhases = (
+				A3F0B1491403C576304EBE84 /* Sources */,
+				6077528603F0C4BBBEA6980C /* Frameworks */,
+				1C2C28810D12DB80984046E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-inviite-ipad-QRCodeReaderViewController";
+			productName = "Pods-inviite-ipad-QRCodeReaderViewController";
+			productReference = 0C32E1E5D1DDB23A9707A746 /* libPods-inviite-ipad-QRCodeReaderViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BDB3895B67EE2727E4E4ACA3 /* Pods-inviite-ipad-Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2D5B3484089D0251FABD29 /* Build configuration list for PBXNativeTarget "Pods-inviite-ipad-Reachability" */;
+			buildPhases = (
+				9A5AE4C56A1DCC3FCBA3E2DD /* Sources */,
+				2CE12221392856F14E370126 /* Frameworks */,
+				D6C2338E13CB17374E807297 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-inviite-ipad-Reachability";
+			productName = "Pods-inviite-ipad-Reachability";
+			productReference = 9C9BA86DCDBBEAFCB12CA2B4 /* libPods-inviite-ipad-Reachability.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FB207C7ECED26D71177EC1AA /* Pods-inviite-ipad-REFrostedViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48144A52FA170085233AC16F /* Build configuration list for PBXNativeTarget "Pods-inviite-ipad-REFrostedViewController" */;
+			buildPhases = (
+				39736DCD5D87D0475CECA9D9 /* Sources */,
+				6AEE1DB86269A5D54F205029 /* Frameworks */,
+				24F0856CC993447C164612ED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-inviite-ipad-REFrostedViewController";
+			productName = "Pods-inviite-ipad-REFrostedViewController";
+			productReference = 45831D0C272D6FB0B66A5929 /* libPods-inviite-ipad-REFrostedViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57F39B4AB016FF11177F6A80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = D08391995C363C8782B8B0A7 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F5037D20794821021FE0350;
+			productRefGroup = 2DF23EB5C68D8429B1895C1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5909E8C0AF42F032028D904 /* Pods-inviite-ipad */,
+				1438834C70DA77EFAC4B0508 /* Pods-inviite-ipad-AFNetworking */,
+				BC64532E323255D820E741A5 /* Pods-inviite-ipad-QRCodeReaderViewController */,
+				FB207C7ECED26D71177EC1AA /* Pods-inviite-ipad-REFrostedViewController */,
+				BDB3895B67EE2727E4E4ACA3 /* Pods-inviite-ipad-Reachability */,
+				974E9D49BAB22A63CBF24A19 /* Pods-inviite-ipad-SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39736DCD5D87D0475CECA9D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F965A360CF8E3842D54F5B0 /* Pods-inviite-ipad-REFrostedViewController-dummy.m in Sources */,
+				9D160F54C7AC458A23F17E05 /* RECommonFunctions.m in Sources */,
+				5E93A83D13E060D2389035F2 /* REFrostedContainerViewController.m in Sources */,
+				42F28E6DE74EBEA28B0DEB23 /* REFrostedViewController.m in Sources */,
+				228F93EC677507A2E01E3E2A /* UIImage+REFrostedViewController.m in Sources */,
+				60B299AAAA9D3F0009388EDD /* UIView+REFrostedViewController.m in Sources */,
+				D3579018448A4D94FDE58429 /* UIViewController+REFrostedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A64D2D1C6A7476A5C253EFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE78B3DEAF06802B32DF422 /* Pods-inviite-ipad-SVProgressHUD-dummy.m in Sources */,
+				7FBBF9B56F3B9AB985E4C98F /* SVIndefiniteAnimatedView.m in Sources */,
+				4890C8E983B749A471B2501F /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41089F6AC2B9D538A8BA9FAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD52B0EB372E9F5045A2C48 /* AFHTTPRequestOperation.m in Sources */,
+				26F42074A53C2AA22147F988 /* AFHTTPRequestOperationManager.m in Sources */,
+				7B74D2D97CEF64FA5D9736D3 /* AFHTTPSessionManager.m in Sources */,
+				082A7C192C91FD54AFD76F92 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				E5E6B2EE7183DA3A6882FA4A /* AFNetworkReachabilityManager.m in Sources */,
+				7B604452B3F38534F2898135 /* AFSecurityPolicy.m in Sources */,
+				D0AA437D05A599FD06BE9035 /* AFURLConnectionOperation.m in Sources */,
+				383A23EF8A25482F60A1745F /* AFURLRequestSerialization.m in Sources */,
+				E72CBF3EF7D2594DF2EDEBDA /* AFURLResponseSerialization.m in Sources */,
+				1F4760B531624F4B82E9AD70 /* AFURLSessionManager.m in Sources */,
+				05C15665B30598E3CA0785A0 /* Pods-inviite-ipad-AFNetworking-dummy.m in Sources */,
+				7E00BDF4423FB06E33E4400F /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				430445645D0DD2070AD1AD94 /* UIAlertView+AFNetworking.m in Sources */,
+				A58A027E314F8E2DB85DC47B /* UIButton+AFNetworking.m in Sources */,
+				2CD414FDF5AF403481526B72 /* UIImageView+AFNetworking.m in Sources */,
+				9630A2054FE92DB9DE429EC0 /* UIProgressView+AFNetworking.m in Sources */,
+				626D9BF45E000D54A66E3DF1 /* UIRefreshControl+AFNetworking.m in Sources */,
+				5EC05C0E1EAD0B3C1467B728 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5AE4C56A1DCC3FCBA3E2DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6C7745146BF076326B30CC /* Pods-inviite-ipad-Reachability-dummy.m in Sources */,
+				F31589E43754E94861D039F8 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F0B1491403C576304EBE84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDD21BF984814719F17D758 /* Pods-inviite-ipad-QRCodeReaderViewController-dummy.m in Sources */,
+				9E1C04D49888C3B931F95699 /* QRCameraSwitchButton.m in Sources */,
+				90739D7BC92BED56906D2920 /* QRCodeReader.m in Sources */,
+				2F45D60136D2992506A87289 /* QRCodeReaderView.m in Sources */,
+				9F7083E255C83E9F69A4D50B /* QRCodeReaderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24B39FCFF3344C2CD96F835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8C26F7F94A5C20E0AF3159 /* Pods-inviite-ipad-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A27560E95661A16DDEE6147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-inviite-ipad-AFNetworking";
+			target = 1438834C70DA77EFAC4B0508 /* Pods-inviite-ipad-AFNetworking */;
+			targetProxy = B2002EBFDB6F15064EB6171A /* PBXContainerItemProxy */;
+		};
+		66CA8CB360BE485B0F847E91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-inviite-ipad-QRCodeReaderViewController";
+			target = BC64532E323255D820E741A5 /* Pods-inviite-ipad-QRCodeReaderViewController */;
+			targetProxy = A2358885BCF37BBA1D672637 /* PBXContainerItemProxy */;
+		};
+		A7C6C69DC465070CD28E3274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-inviite-ipad-REFrostedViewController";
+			target = FB207C7ECED26D71177EC1AA /* Pods-inviite-ipad-REFrostedViewController */;
+			targetProxy = B20B0C5098028F0F473E0AF9 /* PBXContainerItemProxy */;
+		};
+		B15D630FCB7687E5D5B2E924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-inviite-ipad-Reachability";
+			target = BDB3895B67EE2727E4E4ACA3 /* Pods-inviite-ipad-Reachability */;
+			targetProxy = D1F8EA9EC1DC9020FF8D51A7 /* PBXContainerItemProxy */;
+		};
+		BCA9A587247E219FFB9EF619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-inviite-ipad-SVProgressHUD";
+			target = 974E9D49BAB22A63CBF24A19 /* Pods-inviite-ipad-SVProgressHUD */;
+			targetProxy = 700142402A149F13F42FA3C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		014649AF1907830DB8006E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E542F813455587F4E837FA8 /* Pods-inviite-ipad-REFrostedViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-inviite-ipad-REFrostedViewController/Pods-inviite-ipad-REFrostedViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		174A8B1F26E55D593550D1C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E542F813455587F4E837FA8 /* Pods-inviite-ipad-REFrostedViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-inviite-ipad-REFrostedViewController/Pods-inviite-ipad-REFrostedViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		255105C81BCEB876BEAE1A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 536724FEA0B74D225DB0C691 /* Pods-inviite-ipad-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-inviite-ipad-SVProgressHUD/Pods-inviite-ipad-SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		451F187C53300F6A59D98A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68F8BE1DDC11C48F4A5C7B21 /* Pods-inviite-ipad.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		546AF998674D740C1D72E95B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		67098C788A3B9BF15ED49EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 536724FEA0B74D225DB0C691 /* Pods-inviite-ipad-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-inviite-ipad-SVProgressHUD/Pods-inviite-ipad-SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		81FA1280B93E9FCF07803F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586CBCBFE60B1CC7BA1546B8 /* Pods-inviite-ipad-Reachability-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-inviite-ipad-Reachability/Pods-inviite-ipad-Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		990F72034668BC0A96B7E9A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D9AE77CA0E6A51CEF321F0 /* Pods-inviite-ipad-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-inviite-ipad-AFNetworking/Pods-inviite-ipad-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C0AF2EA4C760A624FE66239E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D9AE77CA0E6A51CEF321F0 /* Pods-inviite-ipad-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-inviite-ipad-AFNetworking/Pods-inviite-ipad-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E46A7EFABB6001270C9D5170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5532DE66FFABA4F72BB4C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42BB554A7B8C080F25F81498 /* Pods-inviite-ipad-QRCodeReaderViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-inviite-ipad-QRCodeReaderViewController/Pods-inviite-ipad-QRCodeReaderViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F9AB82EC2CFCBCF4A9F60CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586CBCBFE60B1CC7BA1546B8 /* Pods-inviite-ipad-Reachability-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-inviite-ipad-Reachability/Pods-inviite-ipad-Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FB3E83BFE21ACC59943626D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42BB554A7B8C080F25F81498 /* Pods-inviite-ipad-QRCodeReaderViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-inviite-ipad-QRCodeReaderViewController/Pods-inviite-ipad-QRCodeReaderViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FBA5A3E02377EE29CFA13F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58FA682B9E0F55C2B85024C9 /* Pods-inviite-ipad.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08C609863979175A74398A07 /* Build configuration list for PBXNativeTarget "Pods-inviite-ipad-QRCodeReaderViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5532DE66FFABA4F72BB4C92 /* Debug */,
+				FB3E83BFE21ACC59943626D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		311702E3954F67BA7019D7A0 /* Build configuration list for PBXNativeTarget "Pods-inviite-ipad-SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255105C81BCEB876BEAE1A5E /* Debug */,
+				67098C788A3B9BF15ED49EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48144A52FA170085233AC16F /* Build configuration list for PBXNativeTarget "Pods-inviite-ipad-REFrostedViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014649AF1907830DB8006E8A /* Debug */,
+				174A8B1F26E55D593550D1C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CBAF91E7807A23F61B40EEF /* Build configuration list for PBXNativeTarget "Pods-inviite-ipad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA5A3E02377EE29CFA13F01 /* Debug */,
+				451F187C53300F6A59D98A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2D5B3484089D0251FABD29 /* Build configuration list for PBXNativeTarget "Pods-inviite-ipad-Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81FA1280B93E9FCF07803F89 /* Debug */,
+				F9AB82EC2CFCBCF4A9F60CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF0BA4A23796FDAEEC22ABB5 /* Build configuration list for PBXNativeTarget "Pods-inviite-ipad-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0AF2EA4C760A624FE66239E /* Debug */,
+				990F72034668BC0A96B7E9A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D08391995C363C8782B8B0A7 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546AF998674D740C1D72E95B /* Debug */,
+				E46A7EFABB6001270C9D5170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57F39B4AB016FF11177F6A80 /* Project object */;
+}
