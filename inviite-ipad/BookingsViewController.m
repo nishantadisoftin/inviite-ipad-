@@ -21,7 +21,8 @@
 
 @implementation BookingsViewController
 @synthesize bookingsTableView,numberOfselected,bookings,selectedBookings,plansLabel,multipleConfirmButton,multipleDeclineButton,leftSideView,menuTableView;
-
+@synthesize view_myVenu;
+@synthesize tbl_myVenu;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -58,7 +59,8 @@
     self.menuTableView.frame=CGRectMake(self.view.frame.size.width, 0,self.view.frame.size.width/3 , self.view.frame.size.height);
     self.menuTableView.userInteractionEnabled=YES;
     [self getPlan];
-    
+
+    [bookingsTableView reloadData];
 
 }
 -(void)getBookings
@@ -177,6 +179,7 @@
     NSLog(@"Yo");
     if ([self.menuTableView isHidden])
     {
+         [self.view bringSubviewToFront:self.menuTableView];
         [self.menuTableView reloadData];
         self.menuTableView.hidden=NO;
         [UIView animateWithDuration:0.3 animations:^{
@@ -219,7 +222,7 @@
 -(void)viewDidLayoutSubviews{
     [super viewDidLayoutSubviews];
     //top
-    if ([self.view viewWithTag:10] == nil) {
+  /*  if ([self.view viewWithTag:10] == nil) {
         UIView* bookingsInboxView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 50.0)];
         bookingsInboxView.backgroundColor = [UIColor colorWithRed:0.18 green:0.19 blue:0.21 alpha:0.95];
         [self.view addSubview:bookingsInboxView];
@@ -299,8 +302,9 @@
     //    [[[UIApplication sharedApplication].keyWindow addSubview:self.menuTableView];
          [self.view bringSubviewToFront:self.menuTableView];
     }
-    
-    
+    */
+   
+
 }
 
 #pragma mark TableView mathods
@@ -325,61 +329,71 @@
     
     static NSString *CellIdentifier = @"cell";
       BookingsCell *cell = (BookingsCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    
-        if (tableView==menuTableView)
+    if(tableView == bookingsTableView)
+    {
+        if(cell == nil)
         {
+            cell = [[BookingsCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        }
+        
+        if (indexPath.row % 2 == 0) {
+            cell.backgroundColor = [UIColor colorWithRed:0.18 green:0.19 blue:0.21 alpha:0.5];
+        }else{
+            cell.backgroundColor = [UIColor colorWithRed:0.18 green:0.19 blue:0.21 alpha:0.7];
+        }
+        
+        
+        
+        [cell.checkButton addTarget:self action:@selector(check:) forControlEvents:UIControlEventTouchUpInside];
+        [cell.confirmButton addTarget:self action:@selector(confirm:) forControlEvents:UIControlEventTouchUpInside];
+        [cell.declineButton addTarget:self action:@selector(decline:) forControlEvents:UIControlEventTouchUpInside];
+    }else if (tableView == menuTableView)
+    {
+        
             
-             UITableViewCell *cell2 = (UITableViewCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+            UITableViewCell *cell2 = (UITableViewCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
             if(cell2 == nil)
             {
                 cell2 = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell2"];
             }
-
+            
             cell2.backgroundColor=[UIColor clearColor];
             
-        UILabel *lable=[[UILabel alloc]initWithFrame:CGRectMake(0, 84, self.menuTableView.frame.size.width, 0.5)];
-        lable.backgroundColor=[UIColor grayColor];
-        [cell2.contentView  addSubview:lable];
-        self.menuTableView.backgroundColor= [UIColor colorWithRed:(221/255.f) green:(221/255.f) blue:(221/255.f) alpha:1.0f];
-        cell2.textLabel.text=[ary objectAtIndex:indexPath.row];
-        return cell2;
-    }
-  
-    if(cell == nil)
+            UILabel *lable=[[UILabel alloc]initWithFrame:CGRectMake(0, 84, self.menuTableView.frame.size.width, 0.5)];
+            lable.backgroundColor=[UIColor grayColor];
+            [cell2.contentView  addSubview:lable];
+            self.menuTableView.backgroundColor= [UIColor colorWithRed:(221/255.f) green:(221/255.f) blue:(221/255.f) alpha:1.0f];
+            cell2.textLabel.text=[ary objectAtIndex:indexPath.row];
+            return cell2;
+    
+        
+        
+       
+    }else if (tableView == tbl_myVenu)
     {
-        cell = [[BookingsCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
-    }
-
-    if (indexPath.row % 2 == 0) {
-        cell.backgroundColor = [UIColor colorWithRed:0.18 green:0.19 blue:0.21 alpha:0.5];
-    }else{
-        cell.backgroundColor = [UIColor colorWithRed:0.18 green:0.19 blue:0.21 alpha:0.7];
+        if(cell == nil)
+        {
+            cell = [[BookingsCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        }
+        
+        if (indexPath.row % 2 == 0) {
+            cell.backgroundColor = [UIColor colorWithRed:0.18 green:0.19 blue:0.21 alpha:0.5];
+        }else{
+            cell.backgroundColor = [UIColor colorWithRed:0.18 green:0.19 blue:0.21 alpha:0.7];
+        }
+        
+       
+        
+        UILabel *fromLabel = [[UILabel alloc]initWithFrame:CGRectMake(91, 15, 100, 20)];
+        fromLabel.text = @"dsfsd";
+        fromLabel.numberOfLines = 1;
+        [cell addSubview:fromLabel];
     }
     
-  //  NSURL *url=[NSURL URLWithString: [NSString stringWithFormat:@"%@",[[plans valueForKey:@"data"] valueForKey:@""]]];
-    //[cell.profilePicture sd_setImageWithURL:url];
-
-    [cell.checkButton addTarget:self action:@selector(check:) forControlEvents:UIControlEventTouchUpInside];
-    [cell.confirmButton addTarget:self action:@selector(confirm:) forControlEvents:UIControlEventTouchUpInside];
-    [cell.declineButton addTarget:self action:@selector(decline:) forControlEvents:UIControlEventTouchUpInside];
 
     return cell;
 }
 
--(void)check:(UIButton*)sender{
-    UITableViewCell* cell = (UITableViewCell*)sender.superview;
-    NSLog(@"%ld",(long)[bookingsTableView indexPathForCell:cell].row);
-    NSLog(@"%lu",(unsigned long)sender.state);
-    if (sender.state == 1) {
-        sender.selected = YES;
-        numberOfselected = [NSNumber numberWithInt:numberOfselected.intValue + 1];
-        [self reloadMultipleSelection];
-    }else if (sender.state == 5){
-        sender.selected = NO;
-        numberOfselected = [NSNumber numberWithInt:numberOfselected.intValue - 1];
-        [self reloadMultipleSelection];
-    }
-}
 - (UIView *) tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
     
@@ -397,15 +411,78 @@
         
         return headerView;
 
+    }else if (tableView == tbl_myVenu  || tableView==self.bookingsTableView)
+    {
+        UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.bounds.size.width, 50)];
+        [headerView setBackgroundColor:[UIColor colorWithRed:(71/255.f) green:(74/255.f) blue:(82/255.f) alpha:1.0f]];
+        
+        ;
+        
+        
+        UILabel* admin = [[UILabel alloc]initWithFrame:CGRectMake(70, 0, 100, 50)];
+        admin.numberOfLines = 2;
+        admin.textAlignment = NSTextAlignmentCenter;
+        admin.textColor = [UIColor whiteColor];
+        admin.text = @"Admin\nProfile";
+        [headerView addSubview:admin];
+        
+        UILabel* date = [[UILabel alloc]initWithFrame:CGRectMake(admin.frame.origin.x + 125, 0, 100, 50)];
+        date.numberOfLines = 2;
+        date.textAlignment = NSTextAlignmentCenter;
+        date.textColor = [UIColor whiteColor];
+        date.text = @"Date & Time\nSent";
+        [headerView addSubview:date];
+        
+        UILabel* bookingDate = [[UILabel alloc]initWithFrame:CGRectMake(date.frame.origin.x + 100, 0, 100, 50)];
+        bookingDate.numberOfLines = 2;
+        bookingDate.textAlignment = NSTextAlignmentCenter;
+        bookingDate.textColor = [UIColor whiteColor];
+        bookingDate.text = @"Admin\nProfile";
+        [headerView addSubview:bookingDate];
+        
+        UILabel* numberOfGuests = [[UILabel alloc]initWithFrame:CGRectMake(bookingDate.frame.origin.x + 100, 0, 100, 50)];
+        numberOfGuests.numberOfLines = 2;
+        numberOfGuests.textAlignment = NSTextAlignmentCenter;
+        numberOfGuests.textColor = [UIColor whiteColor];
+        numberOfGuests.text = @"Number\nof Guests";
+        [headerView addSubview:numberOfGuests];
+        
+        UILabel* guestDetails = [[UILabel alloc]initWithFrame:CGRectMake(numberOfGuests.frame.origin.x + 90, 0, 150, 50)];
+        guestDetails.numberOfLines = 2;
+        guestDetails.textAlignment = NSTextAlignmentCenter;
+        guestDetails.textColor = [UIColor whiteColor];
+        guestDetails.text = @"Guest Details\n(Male:Female)";
+        [headerView addSubview:guestDetails];
+        
+        UILabel* ageRange = [[UILabel alloc]initWithFrame:CGRectMake(guestDetails.frame.origin.x + 130, 0, 100, 50)];
+        ageRange.numberOfLines = 1;
+        ageRange.textAlignment = NSTextAlignmentCenter;
+        ageRange.textColor = [UIColor whiteColor];
+        ageRange.text = @"Age Range";
+        [headerView addSubview:ageRange];
+        
+        UILabel* buttonsL = [[UILabel alloc]initWithFrame:CGRectMake(ageRange.frame.origin.x + 100, 0, 200, 50)];
+        buttonsL.numberOfLines = 1;
+        buttonsL.textAlignment = NSTextAlignmentCenter;
+        buttonsL.textColor = [UIColor whiteColor];
+        buttonsL.text = @"Quick Decline/Confirm";
+        [headerView addSubview:buttonsL];
+        
+        
+        return headerView;
     }
     
     return nil;
    }
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
-{  if (tableView==self.menuTableView) {
-    
-    return 50;
-}
+{
+    if (tableView==self.bookingsTableView || tableView == tbl_myVenu) {
+        
+        return 50;
+    }else if (tableView ==self.menuTableView)
+    {
+        return 50;
+    }
     
     return 0;
 }
@@ -490,6 +567,20 @@
     
 
 }
+-(void)check:(UIButton*)sender{
+    UITableViewCell* cell = (UITableViewCell*)sender.superview;
+    NSLog(@"%ld",(long)[bookingsTableView indexPathForCell:cell].row);
+    NSLog(@"%lu",(unsigned long)sender.state);
+    if (sender.state == 1) {
+        sender.selected = YES;
+        numberOfselected = [NSNumber numberWithInt:numberOfselected.intValue + 1];
+        [self reloadMultipleSelection];
+    }else if (sender.state == 5){
+        sender.selected = NO;
+        numberOfselected = [NSNumber numberWithInt:numberOfselected.intValue - 1];
+        [self reloadMultipleSelection];
+    }
+}
 
 -(void)sendResponse:(id)sender{
     [UIView animateWithDuration:0.5 animations:^{
@@ -523,28 +614,43 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    
-    if (indexPath.row==0) {
+    if(tableView == menuTableView)
+    {
+        if (indexPath.row==0) {
+             tbl_myVenu.hidden=YES;
+            bookingsTableView.hidden=NO;
+        }
+        else if (indexPath.row == 6)
+        {
+            tbl_myVenu.hidden=NO;
+            [tbl_myVenu reloadData];
+            bookingsTableView.hidden=YES;
+            
+        }
+        if (indexPath.row==4) {
+            MasterViewController * vc = [self.storyboard instantiateViewControllerWithIdentifier:@"master"];
+            UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:vc];
+            
+            
+            DetailViewController * vc2 = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailViewController"];
+            UINavigationController *nav2=[[UINavigationController alloc]initWithRootViewController:vc2];
+            
+            AppDelegate *appdelegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
+            UISplitViewController *svc = (UISplitViewController*)[self.storyboard instantiateViewControllerWithIdentifier:@"SplitView"];
+            appdelegate.window.rootViewController=svc;
+            // svc.viewControllers=[NSArray arrayWithObjects:nav,nav2, nil];
+            [self.navigationController pushViewController:svc animated:NO];
+            
+        }
         
+        [UIView animateWithDuration:0.3 animations:^{
+            self.menuTableView.frame=CGRectMake(self.view.frame.size.width, 0,self.view.frame.size.width/3 , self.view.frame.size.height);
+        } completion:^(BOOL finished) {
+            [self.menuTableView setHidden:YES];
+        }];
+    
     }
-    if (indexPath.row==4) {
-        MasterViewController * vc = [self.storyboard instantiateViewControllerWithIdentifier:@"master"];
-        UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:vc];
-        
-        
-        DetailViewController * vc2 = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailViewController"];
-        UINavigationController *nav2=[[UINavigationController alloc]initWithRootViewController:vc2];
-        
-        AppDelegate *appdelegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
-        UISplitViewController *svc = (UISplitViewController*)[self.storyboard instantiateViewControllerWithIdentifier:@"SplitView"];
-        appdelegate.window.rootViewController=svc;
-        // svc.viewControllers=[NSArray arrayWithObjects:nav,nav2, nil];
-        [self.navigationController pushViewController:svc animated:NO];
-
-    }
     
-    
-    NSLog(@"Hola");
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

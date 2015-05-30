@@ -22,6 +22,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *multipleDeclineButton;
 @property (strong, nonatomic) UIView *leftSideView;
 @property (weak, nonatomic) IBOutlet UITableView *menuTableView;
-
+@property (strong, nonatomic) IBOutlet UIView *view_myVenu;
+@property (strong, nonatomic) IBOutlet UITableView *tbl_myVenu;
 @end
 

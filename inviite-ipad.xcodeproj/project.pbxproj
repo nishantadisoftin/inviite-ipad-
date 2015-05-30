@@ -181,8 +181,8 @@
 		673A96A41B186EAA00DAB79F /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		673A96A51B186EAA00DAB79F /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		673A96A61B186EAA00DAB79F /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
-		673A96B71B18ABCB00DAB79F /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
-		673A96B81B18ABCB00DAB79F /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@2x.png"; sourceTree = "<group>"; };
+		673A96B71B18ABCB00DAB79F /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plus.png; path = "../../inviite-ipad/plus.png"; sourceTree = "<group>"; };
+		673A96B81B18ABCB00DAB79F /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "plus@2x.png"; path = "../../inviite-ipad/plus@2x.png"; sourceTree = "<group>"; };
 		937D1196DE3E1A8128D9CFA8 /* libPods-inviite-ipad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-inviite-ipad.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		955385A3CECCB4069CAA9567 /* Pods-inviite-ipad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inviite-ipad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-inviite-ipad/Pods-inviite-ipad.debug.xcconfig"; sourceTree = "<group>"; };
 		E09C9E211B147862000CB987 /* bellini-thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bellini-thumb.png"; sourceTree = "<group>"; };
@@ -350,8 +350,6 @@
 				0472D0DE1B11BBAC009CC8FC /* DishesViewController.h */,
 				0472D0DF1B11BBAC009CC8FC /* DishesViewController.m */,
 				0472D0DA1B11BA12009CC8FC /* DetailViewController.h */,
-				673A96B71B18ABCB00DAB79F /* plus.png */,
-				673A96B81B18ABCB00DAB79F /* plus@2x.png */,
 				0472D0DB1B11BA12009CC8FC /* DetailViewController.m */,
 			);
 			name = Menu;
@@ -482,6 +480,7 @@
 		E09C9E201B147862000CB987 /* @1x */ = {
 			isa = PBXGroup;
 			children = (
+				673A96B71B18ABCB00DAB79F /* plus.png */,
 				E09C9E211B147862000CB987 /* bellini-thumb.png */,
 				E09C9E221B147862000CB987 /* bellini.jpg */,
 				E09C9E231B147862000CB987 /* cosmopolitan-thumb.png */,
@@ -521,6 +520,7 @@
 		E09C9E3A1B147862000CB987 /* @2x */ = {
 			isa = PBXGroup;
 			children = (
+				673A96B81B18ABCB00DAB79F /* plus@2x.png */,
 				E09C9E3B1B147862000CB987 /* bellini-thumb@2x.png */,
 				E09C9E3C1B147862000CB987 /* bellini@2x.jpg */,
 				E09C9E3D1B147862000CB987 /* cosmopolitan-thumb@2x.png */,

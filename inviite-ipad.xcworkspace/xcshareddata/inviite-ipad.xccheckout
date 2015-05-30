@@ -10,6 +10,8 @@
 	<string>inviite-ipad</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>E0E9522117ACF1098DE044F0D01674E294AC2518</key>
+		<string>https://github.com/nishantadisoftin/inviite-ipad-.git</string>
 		<key>FB80AB05DCC9F317A6950CB1C24534F72F9CBE14</key>
 		<string>https://github.com/randomstuart/inviite-ipad.git</string>
 	</dict>
@@ -17,15 +19,17 @@
 	<string>inviite-ipad.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>FB80AB05DCC9F317A6950CB1C24534F72F9CBE14</key>
+		<key>E0E9522117ACF1098DE044F0D01674E294AC2518</key>
 		<string>..</string>
+		<key>FB80AB05DCC9F317A6950CB1C24534F72F9CBE14</key>
+		<string>../../inviite_ipad</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/randomstuart/inviite-ipad.git</string>
+	<string>https://github.com/nishantadisoftin/inviite-ipad-.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>FB80AB05DCC9F317A6950CB1C24534F72F9CBE14</string>
+	<string>E0E9522117ACF1098DE044F0D01674E294AC2518</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>FB80AB05DCC9F317A6950CB1C24534F72F9CBE14</string>
 			<key>IDESourceControlWCCName</key>
 			<string>inviite_ipad</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E0E9522117ACF1098DE044F0D01674E294AC2518</string>
+			<key>IDESourceControlWCCName</key>
+			<string>inviite-ipad-</string>
 		</dict>
 	</array>
 </dict>

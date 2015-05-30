@@ -26,12 +26,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self getMenu__Test];
     // Do any additional setup after loading the view, typically from a nib.
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
-    aryMenu=[NSArray arrayWithObjects:@"Cocktail List",
+    /*aryMenu=[NSArray arrayWithObjects:@"Cocktail List",
              @"Seafood Menu", @"From the Grill", @"A la Carte",
              @"Appetizers", @"Wine List", nil];
-    
+    */
     self.tableView.backgroundColor=[UIColor colorWithRed:222/255.0 green:222/255.0 blue:222/255.0 alpha:1];
     [self getMenu];
     
@@ -145,7 +147,7 @@
         
         [self.detailViewController.view addSubview:self.detailViewController._collectionView];
         [self.detailViewController.view setNeedsDisplay];
-        self.detailViewController.title=[aryMenu objectAtIndex:indexPath.row];
+        self.detailViewController.title=[[aryMenu objectAtIndex:indexPath.row] valueForKey:@"name"];
         self.detailViewController.getIntergerValue=indexPath.row;
         
     }
@@ -186,7 +188,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     
     cell.backgroundColor=[UIColor colorWithRed:222/255.0 green:222/255.0 blue:222/255.0 alpha:1];
-    cell.textLabel.text =[aryMenu objectAtIndex:indexPath.row];
+    cell.textLabel.text =[[aryMenu objectAtIndex:indexPath.row] valueForKey:@"name"];
     //[NSString stringWithFormat:@"Menu %d",indexPath.row + 1];
     return cell;
 }
@@ -205,4 +207,56 @@
     }
 }
 
+-(void)getMenu__Test
+{
+    //http://inviiteapp.jerrardwayne.net/bookings?include=venue,plan
+    
+    aryAllData=[[NSMutableArray alloc]init];
+    
+    NSString* token = [[NSUserDefaults standardUserDefaults] stringForKey:@"token"];
+    NSString *string=[NSString stringWithFormat:@"Bearer %@",token];
+    
+    
+    // Create manager
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    
+    
+    manager.responseSerializer = [AFHTTPResponseSerializer serializer];
+    
+    
+    
+    
+    
+    NSMutableURLRequest* request = [[AFHTTPRequestSerializer serializer] requestWithMethod:@"GET" URLString:@"http://inviiteapp.jerrardwayne.net/menus" parameters:nil error:NULL];
+    
+    // Add Headers
+    [request setValue:@"application/vnd.inviite.v1+json" forHTTPHeaderField:@"Accept"];
+    
+    [request setValue:@"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXUyJ9.eyJzdWIiOjEsImlzcyI6Imh0dHA6XC9cL2FwaS5pbnZpaXRlLmRldlwvYXV0aFwvbG9naW4iLCJpYXQiOiIxNDMxNzY1MjQ0IiwiZXhwIjoiMTQzMjk3NDg0NCIsIm5iZiI6IjE0MzE3NjUyNDQiLCJqdGkiOiIwYmY1OTM0NjlhZGVmNDdkMmE2YmYxYzY0ZDIwZTEwZCJ9.MDdhYjBhNzY1NTg0YTc5ZmM2NjljZWE2MGFhZDFkYTYyYTcyNDFhNWYyNmVkYmM0NTEzMGNjODNlMDUzMDcwMQ" forHTTPHeaderField:@"Authorization"];
+    
+    // Fetch Request
+    AFHTTPRequestOperation *operation = [manager HTTPRequestOperationWithRequest:request
+                                                                         success:^(AFHTTPRequestOperation *operation, id responseObject)
+                                         {
+                                             //   [SVProgressHUD dismiss];
+                                             
+                                             NSLog(@"HTTP Response Status Code: %ld", (long)[operation.response statusCode]);
+                                             
+                                             aryAllData = [NSJSONSerialization JSONObjectWithData:responseObject
+                                                                                          options:kNilOptions error:nil];
+                                             NSLog(@"plans-----%@", [aryAllData  valueForKey:@"data"]);
+                                             aryMenu=[aryAllData  valueForKey:@"data"];
+                                             [self.tableView reloadData];
+                                             
+                                         }
+                                         
+                                         
+                                                                         failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                                                                             //    [SVProgressHUD dismiss];
+                                                                             NSLog(@"HTTP Request failed: %@", error);
+                                                                         }];
+    
+    [manager.operationQueue addOperation:operation];
+    
+}
 @end
